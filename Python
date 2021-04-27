@@ -85,3 +85,39 @@ for num in start_list:
     square_list.append(num ** 2)
     square_list.sort()
 print square_list
+dict{key:value}
+del dict[]
+list.remove()
+
+#LOOPING THROUGH DICT
+for key in webster:
+  print webster[key]
+  
+  #COUNT 
+  def count_small(numbers):
+  total = 0
+  for n in numbers:
+    if n < 10:
+      total = total + 1
+  return total
+ 
+lotto = [4, 8, 15, 16, 23, 42]
+small = count_small(lotto)
+print small
+
+
+def fizz_count(x):
+  count = 0
+  for item in x:
+    if item == "fizz":
+      count += 1
+  return count
+  
+prices = {"banana": 4,"apple": 2,"orange": 1.5,"pear": 3}
+
+stock = {"banana": 6, "apple": 0, "orange": 32, "pear": 15}
+
+for food in prices:
+  print food
+  print "price: %s" % prices[food]
+  print "stock: %s" % stock[food]
